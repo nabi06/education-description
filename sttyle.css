@@ -1,0 +1,57 @@
+/* *{
+    margin: 0;
+    padding: 0;
+  } */
+body,html {
+      margin: 0;
+      height: 100%;
+      overflow-y: auto;
+      background: linear-gradient(to bottom right, #eb8ce8,#f06bf7, #d36aed,#7356e5,#8288f5, #73a2f3);
+}
+.container{
+    width: 90%;
+    max-width: 570px;
+    height: fit-content;
+    max-height: 800px;
+    padding: 10px;
+    background: rgba(247, 245, 245, 0.948);
+    margin: 100px auto 50px;
+    font-size: 5vh;
+    overflow-y: auto;
+}
+.container input{
+    background: transparent;
+    border-radius: 30px;
+    height: 5vh;
+    font-size: 3vh;
+    padding-left: 20px;
+
+}
+.container select{
+    background: transparent;
+    border-radius: 30px;
+    height: 5vh;
+    font-size: 3vh;
+}
+.container  .adding .add-skill{
+    margin-left: 20px;
+    height: 5vh;
+    background-color: transparent;
+    font-size: 3vh;
+    text-align: center;
+}
+.container button{
+    margin-left: 40%;
+    background: transparent;
+    height: 5vh;
+    font-size: 3vh;
+    margin-top: 10px;
+}
+.adding div{
+    margin-bottom: 12px;
+    margin-left: 5px;
+}
+.adding .skills{
+    margin-bottom: 10px;
+
+}

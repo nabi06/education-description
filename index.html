@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with Dynamic Fields</title>
+   <!-- Link to your JavaScript file -->
+   <link rel="stylesheet" href="./sttyle.css">
+</head>
+<body>
+    <div class="container">
+        <form id="myForm">
+            <div class="form-group">
+                <label>Name: <input type="text" class="Name"></label><br>
+                <br>
+                <label>College name: <input type="text" class="collegename"></label><br>
+                <br>
+                <label>Degree: <input type="text" class="degree"></label><br>
+                <br>
+                <label for="courseSelect">Course:</label>
+                <select id="courseSelect" name="course">
+                    <option value="course1" class="course">Computer Science </option>
+                    <option value="course2" class="course">Electronics and communication</option>
+                    <option value="course3" class="course">Meachnical</option>
+                    <option value="course4" class="course">Civil</option>
+                    <option value="course5" class="course">AIML</option>
+                    <option value="course6" class="course">Electrical </option>
+                    <!-- Add more course options here -->
+                </select>
+                <br>
+                <div class="adding">
+                    <label class=".add-container">
+                    <br>
+                    Skills:
+                    <input type="text" name="skill1" class="skills">
+                    <button type="button" class="add-skill">Add</button>
+                    </label>
+                    
+                </div> 
+                <button type="submit" class="submitting" >Submit</button>
+            </div>  
+        </form>
+    </div>
+    <script src="./javasc.js"></script>
+</body>
+</html>
